@@ -1,0 +1,487 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2856804118E7D18600736A15 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2856804018E7D18600736A15 /* Cocoa.framework */; };
+		2856804B18E7D18600736A15 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 2856804918E7D18600736A15 /* InfoPlist.strings */; };
+		2856804D18E7D18600736A15 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 2856804C18E7D18600736A15 /* main.m */; };
+		2856805118E7D18600736A15 /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = 2856804F18E7D18600736A15 /* Credits.rtf */; };
+		2856805418E7D18600736A15 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 2856805318E7D18600736A15 /* AppDelegate.m */; };
+		2856805718E7D18600736A15 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2856805518E7D18600736A15 /* MainMenu.xib */; };
+		2856805918E7D18600736A15 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2856805818E7D18600736A15 /* Images.xcassets */; };
+		2856806018E7D18600736A15 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2856805F18E7D18600736A15 /* XCTest.framework */; };
+		2856806118E7D18600736A15 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2856804018E7D18600736A15 /* Cocoa.framework */; };
+		2856806918E7D18600736A15 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 2856806718E7D18600736A15 /* InfoPlist.strings */; };
+		2856806B18E7D18600736A15 /* KeyLoggerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2856806A18E7D18600736A15 /* KeyLoggerTests.m */; };
+		2856807918E7D1FE00736A15 /* Logger.m in Sources */ = {isa = PBXBuildFile; fileRef = 2856807818E7D1FE00736A15 /* Logger.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		2856806218E7D18600736A15 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2856803518E7D18600736A15 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2856803C18E7D18600736A15;
+			remoteInfo = KeyLogger;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		2856803D18E7D18600736A15 /* KeyLogger.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KeyLogger.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		2856804018E7D18600736A15 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		2856804318E7D18600736A15 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
+		2856804418E7D18600736A15 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		2856804518E7D18600736A15 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		2856804818E7D18600736A15 /* KeyLogger-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "KeyLogger-Info.plist"; sourceTree = "<group>"; };
+		2856804A18E7D18600736A15 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		2856804C18E7D18600736A15 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		2856804E18E7D18600736A15 /* KeyLogger-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "KeyLogger-Prefix.pch"; sourceTree = "<group>"; };
+		2856805018E7D18600736A15 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = en; path = en.lproj/Credits.rtf; sourceTree = "<group>"; };
+		2856805218E7D18600736A15 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		2856805318E7D18600736A15 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		2856805618E7D18600736A15 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		2856805818E7D18600736A15 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		2856805E18E7D18600736A15 /* KeyLoggerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KeyLoggerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		2856805F18E7D18600736A15 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		2856806618E7D18600736A15 /* KeyLoggerTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "KeyLoggerTests-Info.plist"; sourceTree = "<group>"; };
+		2856806818E7D18600736A15 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		2856806A18E7D18600736A15 /* KeyLoggerTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KeyLoggerTests.m; sourceTree = "<group>"; };
+		2856807718E7D1FE00736A15 /* Logger.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Logger.h; sourceTree = "<group>"; };
+		2856807818E7D1FE00736A15 /* Logger.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Logger.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2856803A18E7D18600736A15 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2856804118E7D18600736A15 /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2856805B18E7D18600736A15 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2856806118E7D18600736A15 /* Cocoa.framework in Frameworks */,
+				2856806018E7D18600736A15 /* XCTest.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2856803418E7D18600736A15 = {
+			isa = PBXGroup;
+			children = (
+				2856804618E7D18600736A15 /* KeyLogger */,
+				2856806418E7D18600736A15 /* KeyLoggerTests */,
+				2856803F18E7D18600736A15 /* Frameworks */,
+				2856803E18E7D18600736A15 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		2856803E18E7D18600736A15 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2856803D18E7D18600736A15 /* KeyLogger.app */,
+				2856805E18E7D18600736A15 /* KeyLoggerTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2856803F18E7D18600736A15 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				2856804018E7D18600736A15 /* Cocoa.framework */,
+				2856805F18E7D18600736A15 /* XCTest.framework */,
+				2856804218E7D18600736A15 /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		2856804218E7D18600736A15 /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				2856804318E7D18600736A15 /* AppKit.framework */,
+				2856804418E7D18600736A15 /* CoreData.framework */,
+				2856804518E7D18600736A15 /* Foundation.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		2856804618E7D18600736A15 /* KeyLogger */ = {
+			isa = PBXGroup;
+			children = (
+				2856805218E7D18600736A15 /* AppDelegate.h */,
+				2856805318E7D18600736A15 /* AppDelegate.m */,
+				2856805518E7D18600736A15 /* MainMenu.xib */,
+				2856805818E7D18600736A15 /* Images.xcassets */,
+				2856804718E7D18600736A15 /* Supporting Files */,
+				2856807718E7D1FE00736A15 /* Logger.h */,
+				2856807818E7D1FE00736A15 /* Logger.m */,
+			);
+			path = KeyLogger;
+			sourceTree = "<group>";
+		};
+		2856804718E7D18600736A15 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				2856804818E7D18600736A15 /* KeyLogger-Info.plist */,
+				2856804918E7D18600736A15 /* InfoPlist.strings */,
+				2856804C18E7D18600736A15 /* main.m */,
+				2856804E18E7D18600736A15 /* KeyLogger-Prefix.pch */,
+				2856804F18E7D18600736A15 /* Credits.rtf */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		2856806418E7D18600736A15 /* KeyLoggerTests */ = {
+			isa = PBXGroup;
+			children = (
+				2856806A18E7D18600736A15 /* KeyLoggerTests.m */,
+				2856806518E7D18600736A15 /* Supporting Files */,
+			);
+			path = KeyLoggerTests;
+			sourceTree = "<group>";
+		};
+		2856806518E7D18600736A15 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				2856806618E7D18600736A15 /* KeyLoggerTests-Info.plist */,
+				2856806718E7D18600736A15 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2856803C18E7D18600736A15 /* KeyLogger */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2856806E18E7D18600736A15 /* Build configuration list for PBXNativeTarget "KeyLogger" */;
+			buildPhases = (
+				2856803918E7D18600736A15 /* Sources */,
+				2856803A18E7D18600736A15 /* Frameworks */,
+				2856803B18E7D18600736A15 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = KeyLogger;
+			productName = KeyLogger;
+			productReference = 2856803D18E7D18600736A15 /* KeyLogger.app */;
+			productType = "com.apple.product-type.application";
+		};
+		2856805D18E7D18600736A15 /* KeyLoggerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2856807118E7D18600736A15 /* Build configuration list for PBXNativeTarget "KeyLoggerTests" */;
+			buildPhases = (
+				2856805A18E7D18600736A15 /* Sources */,
+				2856805B18E7D18600736A15 /* Frameworks */,
+				2856805C18E7D18600736A15 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2856806318E7D18600736A15 /* PBXTargetDependency */,
+			);
+			name = KeyLoggerTests;
+			productName = KeyLoggerTests;
+			productReference = 2856805E18E7D18600736A15 /* KeyLoggerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2856803518E7D18600736A15 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = "Dillon-Dev";
+				TargetAttributes = {
+					2856805D18E7D18600736A15 = {
+						TestTargetID = 2856803C18E7D18600736A15;
+					};
+				};
+			};
+			buildConfigurationList = 2856803818E7D18600736A15 /* Build configuration list for PBXProject "KeyLogger" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 2856803418E7D18600736A15;
+			productRefGroup = 2856803E18E7D18600736A15 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2856803C18E7D18600736A15 /* KeyLogger */,
+				2856805D18E7D18600736A15 /* KeyLoggerTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2856803B18E7D18600736A15 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2856804B18E7D18600736A15 /* InfoPlist.strings in Resources */,
+				2856805918E7D18600736A15 /* Images.xcassets in Resources */,
+				2856805118E7D18600736A15 /* Credits.rtf in Resources */,
+				2856805718E7D18600736A15 /* MainMenu.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2856805C18E7D18600736A15 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2856806918E7D18600736A15 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2856803918E7D18600736A15 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2856805418E7D18600736A15 /* AppDelegate.m in Sources */,
+				2856807918E7D1FE00736A15 /* Logger.m in Sources */,
+				2856804D18E7D18600736A15 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2856805A18E7D18600736A15 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2856806B18E7D18600736A15 /* KeyLoggerTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		2856806318E7D18600736A15 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2856803C18E7D18600736A15 /* KeyLogger */;
+			targetProxy = 2856806218E7D18600736A15 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		2856804918E7D18600736A15 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2856804A18E7D18600736A15 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		2856804F18E7D18600736A15 /* Credits.rtf */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2856805018E7D18600736A15 /* en */,
+			);
+			name = Credits.rtf;
+			sourceTree = "<group>";
+		};
+		2856805518E7D18600736A15 /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2856805618E7D18600736A15 /* Base */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+		2856806718E7D18600736A15 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2856806818E7D18600736A15 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		2856806C18E7D18600736A15 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		2856806D18E7D18600736A15 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		2856806F18E7D18600736A15 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "KeyLogger/KeyLogger-Prefix.pch";
+				INFOPLIST_FILE = "KeyLogger/KeyLogger-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		2856807018E7D18600736A15 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "KeyLogger/KeyLogger-Prefix.pch";
+				INFOPLIST_FILE = "KeyLogger/KeyLogger-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		2856807218E7D18600736A15 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/KeyLogger.app/Contents/MacOS/KeyLogger";
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "KeyLogger/KeyLogger-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "KeyLoggerTests/KeyLoggerTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		2856807318E7D18600736A15 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/KeyLogger.app/Contents/MacOS/KeyLogger";
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "KeyLogger/KeyLogger-Prefix.pch";
+				INFOPLIST_FILE = "KeyLoggerTests/KeyLoggerTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2856803818E7D18600736A15 /* Build configuration list for PBXProject "KeyLogger" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2856806C18E7D18600736A15 /* Debug */,
+				2856806D18E7D18600736A15 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2856806E18E7D18600736A15 /* Build configuration list for PBXNativeTarget "KeyLogger" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2856806F18E7D18600736A15 /* Debug */,
+				2856807018E7D18600736A15 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		2856807118E7D18600736A15 /* Build configuration list for PBXNativeTarget "KeyLoggerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2856807218E7D18600736A15 /* Debug */,
+				2856807318E7D18600736A15 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 2856803518E7D18600736A15 /* Project object */;
+}
